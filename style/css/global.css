@@ -1037,14 +1037,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-image: url("../img/exp/exp_javascript.svg");
 }
 
-.experience__icon--sass {
-  background-image: url("../img/exp/exp_sass.svg");
-}
-
-.experience__icon--jquery {
-  background-image: url("../img/exp/exp_jquery.svg");
-}
-
 .experience__icon--wordpress {
   background-image: url("../img/exp/exp_wordpress.svg");
 }
@@ -1061,16 +1053,28 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-image: url("../img/exp/exp_illustrator.svg");
 }
 
-.experience__icon--fireworks {
-  background-image: url("../img/exp/exp_fireworks.svg");
-}
-
 .experience__icon--bootstrap {
   background-image: url("../img/exp/exp_bootstrap.svg");
 }
 
-.experience__icon--foundation {
-  background-image: url("../img/exp/exp_foundation-glasses.svg");
+.experience__icon_new--python {
+  background-image: url("../img/exp/python.svg");
+}
+
+.experience__icon_new--laravel {
+  background-image: url("../img/exp/laravel.svg");
+}
+
+.experience__icon_new--java{
+  background-image: url("../img/exp/java.svg");
+}
+
+.experience__icon_new--php{
+  background-image: url("../img/exp/PHP_Logo.svg");
+}
+
+.experience__icon_new--mysql{
+  background-image: url("../img/exp/mysql.svg");
 }
 
 .experience__icon-description {
