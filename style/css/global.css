@@ -1,17 +1,4 @@
-/*------------------------------------*	Information
-\*------------------------------------*/
-/*
-	 * Style by Dominik Serafin
-	 * * http://serafin.io/
-	 * * dominikdsgnr@gmail.com
-	 *
-	 * Stylesheet generated with SASS
-	 * * http://sass-lang.com/
-	 *
-	 * Vendor prefixes thanks to Autoprefixer
-	 * * https://github.com/postcss/autoprefixer
-	 *
-	 */
+
 /*------------------------------------*    Normalize
 \*------------------------------------*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -1035,10 +1022,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .experience__icon--javascript {
   background-image: url("../img/exp/exp_javascript.svg");
-}
-
-.experience__icon--wordpress {
-  background-image: url("../img/exp/exp_wordpress.svg");
 }
 
 .experience__icon--git {
