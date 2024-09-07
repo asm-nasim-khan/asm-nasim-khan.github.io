@@ -338,6 +338,48 @@ $(document).ready(function(){
 	
 
 
+// script.js
+const texts = ["CSE graduate.","Teacher.", "Developer.", "Problem Solver.", "Tech Enthusiast."];
+const typingSpeed = 100; // Speed of typing in milliseconds
+const erasingSpeed = 50; // Speed of erasing in milliseconds
+const newTextDelay = 1000; // Delay before starting to delete text
+
+const element = document.querySelector('.hero__title-large-anim');
+let textIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function type() {
+  const currentText = texts[textIndex];
+  
+  if (isDeleting) {
+    // Remove characters
+    element.textContent = currentText.substring(0, charIndex--);
+    if (charIndex < 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % texts.length;
+      setTimeout(type, newTextDelay); // Delay before typing next text
+      return;
+    }
+  } else {
+    // Add characters
+    element.textContent = currentText.substring(0, charIndex++);
+    if (charIndex > currentText.length) {
+      isDeleting = true;
+      setTimeout(type, newTextDelay); // Delay before starting to delete
+      return;
+    }
+  }
+  
+  // Ensure consistent typing and deleting speed
+  setTimeout(type, isDeleting ? erasingSpeed : typingSpeed);
+}
+
+// Start the typing effect
+type();
+
+
+
 
 
 

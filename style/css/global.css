@@ -815,14 +815,65 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   float: right;
 }
 
+/* .hero__photo {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 350px;
+  background-image: url("../img/Cover.png");
+  background-size: cover;
+} */
+
+/* Default styles (applied if no media queries match) */
 .hero__photo {
   position: relative;
-  width: 280px;
-  height: 280px;
-  border-radius: 150px;
-  background-image: url("../img/hero_photo.jpg");
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-image: url("../img/Cover.png");
   background-size: cover;
 }
+
+/* Smaller screens (600px and below) */
+@media (max-width: 600px) {
+  .hero__photo {
+    width: 35vw;
+    height: 35vw;
+  }
+}
+
+/* Medium screens (601px to 1200px) */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .hero__photo {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+/* Larger screens (1201px and above) */
+@media (min-width: 1201px) {
+  .hero__photo {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+
+
+
+/* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 40px; /* Ensure consistency with other text */
+  color: white; /* Set text color */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  border-right: .15em solid orange; /* Cursor effect */
+  margin-left: 7px; /* Space between fixed text and animated text */
+}
+
+
+
+
 
 .hero__hat {
   position: absolute;
