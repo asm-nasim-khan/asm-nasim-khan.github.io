@@ -801,6 +801,17 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   font-weight: 700;
   font-size: 100px;
 }
+/* Animated part of the text */
+.hero__title-large-anim {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  font-size: 55px; /* Ensure consistency with other text */
+  color: white; /* Set text color */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  border-right: .15em solid orange; /* Cursor effect */
+  margin-left: 7px; /* Space between fixed text and animated text */
+}
 
 .hero__title-small {
   color: rgba(255, 255, 255, 0.9);
@@ -857,21 +868,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     height: 25vw;
   }
 }
-
-
-
-
-/* Animated part of the text */
-.hero__title-large-anim {
-  font-size: 40px; /* Ensure consistency with other text */
-  color: white; /* Set text color */
-  white-space: nowrap; /* Prevent text from wrapping */
-  overflow: hidden; /* Hide overflowing text */
-  border-right: .15em solid orange; /* Cursor effect */
-  margin-left: 7px; /* Space between fixed text and animated text */
-}
-
-
 
 
 
@@ -1978,6 +1974,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     font-weight: 700;
     font-size: 80px;
   }
+
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 45px; /* Ensure consistency with other text */
+}
+
   .hero__title-small {
     font-size: 45px;
   }
@@ -2096,6 +2098,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 70px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 40px; /* Ensure consistency with other text */
+}
   .hero__title-small {
     font-size: 40px;
   }
@@ -2204,6 +2210,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 68px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 38px;
+}
   .hero__title-small {
     font-size: 38px;
   }
@@ -2219,6 +2229,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 65px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 35px;
+}
   .hero__title-small {
     font-size: 35px;
   }
@@ -2258,6 +2272,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 75px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 45px; /* Ensure consistency with other text */
+}
   .hero__title-small {
     font-size: 45px;
   }
@@ -2395,6 +2413,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 65px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 35px; /* Ensure consistency with other text */
+}
   .hero__title-small {
     font-size: 35px;
   }
@@ -2576,6 +2598,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 70px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 40px; /* Ensure consistency with other text */
+}
   .hero__title-small {
     font-size: 40px;
   }
@@ -2634,6 +2660,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 60px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 35px; /* Ensure consistency with other text */
+}
   .hero__title-small {
     font-size: 35px;
   }
@@ -2671,6 +2701,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     font-weight: 700;
     font-size: 100px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 55px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
   .hero__title-small {
     font-size: 55px;
     margin-left: 20px;
@@ -2727,6 +2763,11 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-large {
     font-size: 78px;
   }
+  /* Animated part of the text */
+.hero__title-large-anim {
+  font-size: 50px;
+
+}
   .hero__title-small {
     font-size: 50px;
   }
