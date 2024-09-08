@@ -806,11 +806,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 700;
   font-size: 55px; /* Ensure consistency with other text */
-  color: white; /* Set text color */
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowing text */
   border-right: .15em solid orange; /* Cursor effect */
-  margin-left: 7px; /* Space between fixed text and animated text */
+
 }
 
 .hero__title-small {
