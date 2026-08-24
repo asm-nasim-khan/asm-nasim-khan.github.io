@@ -2,33 +2,59 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student in Computer Science · University of Kansas
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Electrical Engineering and Computer Science</p>
+    <p>University of Kansas</p>
+    <p>Lawrence, Kansas</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am **A S M Nasim Khan**, a PhD student in **Computer Science** in the Department of Electrical Engineering and Computer Science at the **University of Kansas**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests span **Natural Language Processing (NLP), Computer Vision, Image Processing, Machine Learning, and Data Science**. I am interested in developing intelligent, data-driven methods for extracting meaningful information from text, images, and other complex forms of data.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Research Interests
+
+- Natural Language Processing (NLP)
+- Computer Vision
+- Image Processing
+- Machine Learning
+- Data Science
+
+### Current Research
+
+My current research broadly explores the application of **machine learning and data-driven techniques** to problems involving visual and textual information. I am particularly interested in building computational methods that can learn from complex datasets, identify meaningful patterns, and support intelligent decision-making.
+
+My interests include both the theoretical and practical aspects of machine learning, with an emphasis on applications in **natural language processing, computer vision, image analysis, and data science**.
+
+### Background
+
+I am currently pursuing my **PhD in Computer Science** at the **University of Kansas**. My academic interests center around artificial intelligence and data-driven computing, particularly the development and application of machine learning methods for analyzing large and complex datasets.
+
+Through my doctoral studies, I aim to deepen my understanding of modern machine learning techniques while contributing to research that addresses challenging real-world problems.
+
+### Research & Collaboration
+
+I am interested in research collaborations involving **NLP, computer vision, image processing, machine learning, and data science**, as well as interdisciplinary projects where artificial intelligence and data-driven methods can provide new insights.
+
+I am also interested in exploring emerging areas of AI and applying machine learning techniques to practical research problems.
+
+You can learn more about my work through my [publications](/publications/), [projects](/projects/), and [CV](/cv/).
