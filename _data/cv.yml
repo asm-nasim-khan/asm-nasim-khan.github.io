@@ -253,21 +253,17 @@ cv:
 
     Certificates:
       - name: Introduction to Natural Language Processing in Python
-        date: ""
         issuer: DataCamp
         icon: fa-solid fa-certificate
 
       - name: Feature Engineering for Machine Learning in Python
-        date: ""
         issuer: DataCamp
         icon: fa-solid fa-certificate
 
       - name: Machine Learning with Tree-Based Models in Python
-        date: ""
         issuer: DataCamp
         icon: fa-solid fa-certificate
 
       - name: Python Data Structures
-        date: ""
         issuer: Coursera
         icon: fa-solid fa-certificate
