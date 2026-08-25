@@ -19,7 +19,7 @@ I am currently a **Graduate Teaching Assistant at the University of Kansas**, su
     <div class="card h-100 text-center">
       <div class="card-body">
         <h3 class="card-title">40</h3>
-        <p class="card-text">BRACU Sections Taught</p>
+        <p class="card-text">BRAC University Sections</p>
       </div>
     </div>
   </div>
@@ -55,7 +55,17 @@ I am currently a **Graduate Teaching Assistant at the University of Kansas**, su
 
 ### Areas of Teaching
 
-`Programming` · `Data Structures` · `Operating Systems` · `Numerical Methods` · `Database Systems` · `Computer Networks` · `System Analysis & Design` · `Computer Vision` · `Digital Logic`
+<div class="d-flex flex-wrap gap-2 mb-4">
+  <span class="badge rounded-pill text-bg-light">Programming</span>
+  <span class="badge rounded-pill text-bg-light">Data Structures</span>
+  <span class="badge rounded-pill text-bg-light">Operating Systems</span>
+  <span class="badge rounded-pill text-bg-light">Numerical Methods</span>
+  <span class="badge rounded-pill text-bg-light">Database Systems</span>
+  <span class="badge rounded-pill text-bg-light">Computer Networks</span>
+  <span class="badge rounded-pill text-bg-light">System Analysis & Design</span>
+  <span class="badge rounded-pill text-bg-light">Computer Vision</span>
+  <span class="badge rounded-pill text-bg-light">Digital Logic</span>
+</div>
 
 ---
 
