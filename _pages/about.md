@@ -27,9 +27,9 @@ latest_posts:
   limit: 3
 ---
 
-Hello! I am **A S M Nasim Khan**, a PhD student in **Computer Science** in the Department of Electrical Engineering and Computer Science at the **University of Kansas**.
+Hello! I am **A S M Nasim Khan**, a PhD student in **Computer Science** at the **University of Kansas**.
 
-My research interests span **Natural Language Processing (NLP), Computer Vision, Image Processing, Machine Learning, and Data Science**. I am interested in developing intelligent, data-driven methods for extracting meaningful information from text, images, and other complex forms of data.
+My research interests span **Natural Language Processing (NLP), Computer Vision, Image Processing, Machine Learning, and Data Science**. I am broadly interested in developing intelligent, data-driven methods that can extract meaningful information from complex textual, visual, and structured data.
 
 ### Research Interests
 
@@ -39,22 +39,37 @@ My research interests span **Natural Language Processing (NLP), Computer Vision,
 - Machine Learning
 - Data Science
 
-### Current Research
+### Research
 
-My current research broadly explores the application of **machine learning and data-driven techniques** to problems involving visual and textual information. I am particularly interested in building computational methods that can learn from complex datasets, identify meaningful patterns, and support intelligent decision-making.
+My research interests lie at the intersection of **artificial intelligence, machine learning, and data-driven computing**. I am particularly interested in problems involving language understanding, visual information processing, representation learning, and the development of reliable machine learning systems.
 
-My interests include both the theoretical and practical aspects of machine learning, with an emphasis on applications in **natural language processing, computer vision, image analysis, and data science**.
+My previous research focused on developing a **context- and semantics-aware reference validation framework** for detecting hallucinated and dangling references in scholarly publications. The work explored sentence embeddings, topic modeling, similarity-based methods, and dataset construction for identifying potentially invalid scholarly references.
 
 ### Background
 
-I am currently pursuing my **PhD in Computer Science** at the **University of Kansas**. My academic interests center around artificial intelligence and data-driven computing, particularly the development and application of machine learning methods for analyzing large and complex datasets.
+Before beginning my doctoral studies, I completed my **Bachelor of Computer Science and Engineering** at **BRAC University** in Dhaka, Bangladesh.
 
-Through my doctoral studies, I aim to deepen my understanding of modern machine learning techniques while contributing to research that addresses challenging real-world problems.
+My academic background combines research, teaching, software development, and data analysis. I have worked with technologies and tools including **Python, SQL, machine learning, data analysis, Django, Java, JavaScript, PHP, MySQL, Power BI, Git, and LaTeX**.
+
+I have also taught and supported undergraduate computer science courses covering topics such as **programming, data structures, operating systems, databases, and system design**.
+
+### Teaching
+
+Teaching has been an important part of my academic journey. My previous experience includes serving as an **Adjunct Lecturer at BRAC University**, as well as teaching and supporting courses in **Python programming, data science, machine learning, databases, algorithms, and software development**.
+
+I enjoy helping students connect theoretical computer science concepts with practical problem-solving and real-world applications.
 
 ### Research & Collaboration
 
-I am interested in research collaborations involving **NLP, computer vision, image processing, machine learning, and data science**, as well as interdisciplinary projects where artificial intelligence and data-driven methods can provide new insights.
+I am interested in collaborating on research involving:
 
-I am also interested in exploring emerging areas of AI and applying machine learning techniques to practical research problems.
+- Natural Language Processing
+- Computer Vision and Image Analysis
+- Machine Learning and Deep Learning
+- Data Science and Data Analytics
+- Multimodal Learning
+- Applied Artificial Intelligence
+
+I am particularly interested in interdisciplinary research where machine learning and AI can be used to address challenging real-world problems.
 
 You can learn more about my work through my [publications](/publications/), [projects](/projects/), and [CV](/cv/).
