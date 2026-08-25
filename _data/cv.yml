@@ -210,27 +210,33 @@ cv:
 
     Projects:
       - name: E-Pathshala
-        summary: Full-stack online skill-learning platform where users can purchase courses, instructors can publish courses, and administrators can manage platform activities.
+        url: "https://github.com/asm-nasim-khan/Epathshala"
+        summary: Full-stack e-learning platform designed for course discovery, publishing, purchasing, payments, and learner engagement.
         highlights:
-          - Implemented using Laravel, PHP, MySQL, and MVC architecture.
-          - Developed course purchasing and publishing functionality.
-          - Implemented user, instructor, and administrator functionality.
-          - Developed features for course management and user interaction.
-          - Built another version using Django, CSS, and HTML.
+          - Developed the primary application using Laravel, PHP, MySQL, and MVC architecture.
+          - Implemented role-based functionality for learners, instructors, and administrators.
+          - Developed course publishing, search, cart, purchasing, payment, voucher, and purchased-course management features.
+          - Added user-facing interaction and social features to support engagement within the learning platform.
+          - Developed an additional version of the platform using Django, HTML, and CSS.
 
       - name: Laptop Price Prediction
-        summary: Machine learning project for predicting laptop prices from hardware specifications using multiple regression techniques.
+        url: "https://github.com/asm-nasim-khan/Laptop-Price-Prediction"
+        summary: Developed a machine learning pipeline for predicting laptop prices from hardware specifications using data preprocessing, feature engineering, exploratory analysis, and regression modeling.
         highlights:
-          - Performed extensive data preprocessing and feature engineering.
-          - Used laptop specifications including CPU, RAM, GPU, screen size, storage, and price.
-          - Applied data visualization using histograms, bar plots, and heatmaps.
-          - Compared regression approaches to identify important factors affecting laptop prices.
+          - Prepared and transformed laptop specification data for machine learning analysis.
+          - Engineered features from CPU, RAM, GPU, display, storage, and other hardware characteristics.
+          - Performed exploratory data analysis using distributions, bar plots, correlation analysis, and heatmaps.
+          - Evaluated multiple regression approaches for laptop price prediction.
+          - Analyzed the contribution of hardware characteristics to predicted laptop prices.
 
       - name: NLP-based Depression Detection
-        summary: Natural language processing and machine learning project for detecting depression-related patterns from social media posts.
+        url: "https://github.com/asm-nasim-khan/NLP-based-Depression-Detection"
+        summary: Natural language processing and machine learning project for identifying depression-related linguistic patterns from textual social media data.
         highlights:
-          - Applied sentiment analysis and natural language processing techniques.
-          - Explored machine learning and deep learning approaches for depression detection.
+          - Applied text preprocessing and natural language processing techniques to social media content.
+          - Explored sentiment-related and linguistic features associated with depression-related text.
+          - Investigated machine learning and deep learning approaches for text-based depression detection.
+          - Developed an end-to-end workflow covering text preparation, modeling, and prediction.
 
     Awards:
       - title: Vice Chancellor's List
