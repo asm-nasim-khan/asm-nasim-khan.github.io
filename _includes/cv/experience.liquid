@@ -1,0 +1,347 @@
+{% comment %}
+  Custom experience renderer for A S M Nasim Khan's CV.
+
+  Supports:
+  - RenderCV: company, position, start_date, end_date, location,
+    url, summary, highlights
+  - JSONResume: name, position, startDate, endDate, location,
+    url, summary, highlights
+
+  Customization:
+  - YYYY-MM dates are displayed as "Mon YYYY"
+  - "present" is displayed as "Present"
+  - Year-only dates remain as years
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+
+          {% comment %}
+            Get start date from either RenderCV or JSONResume format.
+          {% endcomment %}
+          {% capture start_date %}
+            {% if entry.start_date %}
+              {{ entry.start_date }}
+            {% elsif entry.startDate %}
+              {{ entry.startDate }}
+            {% endif %}
+          {% endcapture %}
+          {% assign start_date = start_date | strip %}
+
+          {% comment %}
+            Get end date from either RenderCV or JSONResume format.
+          {% endcomment %}
+          {% capture end_date %}
+            {% if entry.end_date %}
+              {{ entry.end_date }}
+            {% elsif entry.endDate %}
+              {{ entry.endDate }}
+            {% endif %}
+          {% endcapture %}
+          {% assign end_date = end_date | strip %}
+
+          {% comment %}
+            Some entries may use a single date.
+          {% endcomment %}
+          {% capture point_date %}
+            {% if entry.date %}
+              {{ entry.date }}
+            {% elsif entry.releaseDate %}
+              {{ entry.releaseDate }}
+            {% endif %}
+          {% endcapture %}
+          {% assign point_date = point_date | strip %}
+
+
+          {% comment %}
+            ---------------------------------------------------------
+            FORMAT START DATE
+            ---------------------------------------------------------
+          {% endcomment %}
+
+          {% assign start_display = "" %}
+
+          {% if start_date != "" %}
+            {% assign start_parts = start_date | split: "-" %}
+            {% assign start_year = start_parts[0] %}
+            {% assign start_month = start_parts[1] %}
+
+            {% if start_month %}
+              {% case start_month %}
+                {% when "01" %}
+                  {% assign start_month_name = "Jan" %}
+                {% when "02" %}
+                  {% assign start_month_name = "Feb" %}
+                {% when "03" %}
+                  {% assign start_month_name = "Mar" %}
+                {% when "04" %}
+                  {% assign start_month_name = "Apr" %}
+                {% when "05" %}
+                  {% assign start_month_name = "May" %}
+                {% when "06" %}
+                  {% assign start_month_name = "Jun" %}
+                {% when "07" %}
+                  {% assign start_month_name = "Jul" %}
+                {% when "08" %}
+                  {% assign start_month_name = "Aug" %}
+                {% when "09" %}
+                  {% assign start_month_name = "Sep" %}
+                {% when "10" %}
+                  {% assign start_month_name = "Oct" %}
+                {% when "11" %}
+                  {% assign start_month_name = "Nov" %}
+                {% when "12" %}
+                  {% assign start_month_name = "Dec" %}
+                {% else %}
+                  {% assign start_month_name = "" %}
+              {% endcase %}
+
+              {% if start_month_name != "" %}
+                {% assign start_display = start_month_name | append: " " | append: start_year %}
+              {% else %}
+                {% assign start_display = start_year %}
+              {% endif %}
+            {% else %}
+              {% assign start_display = start_year %}
+            {% endif %}
+          {% endif %}
+
+
+          {% comment %}
+            ---------------------------------------------------------
+            FORMAT END DATE
+            ---------------------------------------------------------
+          {% endcomment %}
+
+          {% assign end_display = "" %}
+          {% assign end_date_lower = end_date | downcase %}
+
+          {% if end_date == "" %}
+            {% assign end_display = "Present" %}
+
+          {% elsif end_date_lower == "present" or end_date_lower == "current" %}
+            {% assign end_display = "Present" %}
+
+          {% else %}
+            {% assign end_parts = end_date | split: "-" %}
+            {% assign end_year = end_parts[0] %}
+            {% assign end_month = end_parts[1] %}
+
+            {% if end_month %}
+              {% case end_month %}
+                {% when "01" %}
+                  {% assign end_month_name = "Jan" %}
+                {% when "02" %}
+                  {% assign end_month_name = "Feb" %}
+                {% when "03" %}
+                  {% assign end_month_name = "Mar" %}
+                {% when "04" %}
+                  {% assign end_month_name = "Apr" %}
+                {% when "05" %}
+                  {% assign end_month_name = "May" %}
+                {% when "06" %}
+                  {% assign end_month_name = "Jun" %}
+                {% when "07" %}
+                  {% assign end_month_name = "Jul" %}
+                {% when "08" %}
+                  {% assign end_month_name = "Aug" %}
+                {% when "09" %}
+                  {% assign end_month_name = "Sep" %}
+                {% when "10" %}
+                  {% assign end_month_name = "Oct" %}
+                {% when "11" %}
+                  {% assign end_month_name = "Nov" %}
+                {% when "12" %}
+                  {% assign end_month_name = "Dec" %}
+                {% else %}
+                  {% assign end_month_name = "" %}
+              {% endcase %}
+
+              {% if end_month_name != "" %}
+                {% assign end_display = end_month_name | append: " " | append: end_year %}
+              {% else %}
+                {% assign end_display = end_year %}
+              {% endif %}
+            {% else %}
+              {% assign end_display = end_year %}
+            {% endif %}
+          {% endif %}
+
+
+          {% comment %}
+            ---------------------------------------------------------
+            BUILD FINAL DATE RANGE
+            ---------------------------------------------------------
+          {% endcomment %}
+
+          {% if start_display != "" %}
+            {% assign date = start_display | append: " – " | append: end_display %}
+
+          {% elsif point_date != "" %}
+            {% assign point_parts = point_date | split: "-" %}
+            {% assign point_year = point_parts[0] %}
+            {% assign point_month = point_parts[1] %}
+
+            {% if point_month %}
+              {% case point_month %}
+                {% when "01" %}
+                  {% assign point_month_name = "Jan" %}
+                {% when "02" %}
+                  {% assign point_month_name = "Feb" %}
+                {% when "03" %}
+                  {% assign point_month_name = "Mar" %}
+                {% when "04" %}
+                  {% assign point_month_name = "Apr" %}
+                {% when "05" %}
+                  {% assign point_month_name = "May" %}
+                {% when "06" %}
+                  {% assign point_month_name = "Jun" %}
+                {% when "07" %}
+                  {% assign point_month_name = "Jul" %}
+                {% when "08" %}
+                  {% assign point_month_name = "Aug" %}
+                {% when "09" %}
+                  {% assign point_month_name = "Sep" %}
+                {% when "10" %}
+                  {% assign point_month_name = "Oct" %}
+                {% when "11" %}
+                  {% assign point_month_name = "Nov" %}
+                {% when "12" %}
+                  {% assign point_month_name = "Dec" %}
+                {% else %}
+                  {% assign point_month_name = "" %}
+              {% endcase %}
+
+              {% if point_month_name != "" %}
+                {% assign date = point_month_name | append: " " | append: point_year %}
+              {% else %}
+                {% assign date = point_year %}
+              {% endif %}
+            {% else %}
+              {% assign date = point_year %}
+            {% endif %}
+
+          {% else %}
+            {% assign date = null %}
+          {% endif %}
+
+
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  {% if date %}
+                    <span
+                      class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                      style="min-width: 110px; white-space: nowrap"
+                    >
+                      {{- date -}}
+                    </span>
+                  {% endif %}
+                </td>
+              </tr>
+
+              {% capture location %}
+                {% if entry.location %}
+                  {{ entry.location }}
+                {% endif %}
+              {% endcapture %}
+              {% assign location = location | strip %}
+
+              {% if location != "" %}
+                <tr>
+                  <td>
+                    <p class="location">
+                      <i class="fa-solid fa-location-dot iconlocation"></i>
+                      {{ location }}
+                    </p>
+                  </td>
+                </tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+
+          {% comment %}
+            Position / role
+          {% endcomment %}
+          {% capture position_title %}
+            {% if entry.position %}
+              {{ entry.position }}
+            {% endif %}
+          {% endcapture %}
+          {% assign position_title = position_title | strip %}
+
+          {% if entry.url %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">
+                {{ position_title }}
+              </a>
+            </h6>
+          {% elsif position_title != "" %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {{ position_title }}
+            </h6>
+          {% endif %}
+
+
+          {% comment %}
+            Company / institution
+          {% endcomment %}
+          {% capture company_name %}
+            {% if entry.name %}
+              {{ entry.name }}
+            {% elsif entry.company %}
+              {{ entry.company }}
+            {% elsif entry.organization %}
+              {{ entry.organization }}
+            {% endif %}
+          {% endcapture %}
+          {% assign company_name = company_name | strip %}
+
+          {% if company_name != "" %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{ company_name }}
+            </h6>
+          {% endif %}
+
+
+          {% comment %}
+            Summary
+          {% endcomment %}
+          {% if entry.summary %}
+            <h6
+              class="ml-1 ml-md-4"
+              style="font-size: 0.95rem; font-style: italic"
+            >
+              {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+            </h6>
+          {% endif %}
+
+
+          {% comment %}
+            Highlights
+          {% endcomment %}
+          {% if entry.highlights %}
+            <ul class="items">
+              {% for item in entry.highlights %}
+                <li>
+                  <span class="item">
+                    {{ item | markdownify | remove: '<p>' | remove: '</p>' }}
+                  </span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
