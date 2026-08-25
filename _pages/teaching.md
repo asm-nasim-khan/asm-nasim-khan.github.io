@@ -36,8 +36,8 @@ I am currently a **Graduate Teaching Assistant at the University of Kansas**, su
   <div class="col-sm-6 col-md-3 mb-3">
     <div class="card h-100 text-center">
       <div class="card-body">
-        <h3 class="card-title">8</h3>
-        <p class="card-text">Distinct BRACU Courses</p>
+        <h3 class="card-title">9</h3>
+        <p class="card-text">University Courses</p>
       </div>
     </div>
   </div>
