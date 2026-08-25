@@ -97,14 +97,37 @@
                   </td>
                 </tr>
               {% endif %}
-              {% if cv.website %}
-                <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
-                    <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
-                  </td>
-                </tr>
-              {% endif %}
+              {% if cv.social_networks %}
+  {% for social in cv.social_networks %}
+    {% if social.network == 'GitHub' %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>GitHub</b></td>
+        <td class="p-1 pl-2 font-weight-light">
+          <a
+            href="https://github.com/{{ social.username }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/{{ social.username }}
+          </a>
+        </td>
+      </tr>
+    {% elsif social.network == 'LinkedIn' %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>LinkedIn</b></td>
+        <td class="p-1 pl-2 font-weight-light">
+          <a
+            href="https://www.linkedin.com/in/{{ social.username }}/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/{{ social.username }}
+          </a>
+        </td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+{% endif %}
             </table>
           </div>
         {% endif %}
