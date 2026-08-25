@@ -19,7 +19,6 @@ cv:
     countryCode: US
 
   sections:
-
     Education:
       - institution: University of Kansas
         location: Lawrence, KS, USA
@@ -58,48 +57,45 @@ cv:
         start_date: 2009
         end_date: 2015
         score: "GPA: 5.00/5.00"
-        
 
-  Experience:
-    - company: University of Kansas
-      position: Graduate Teaching Assistant
-      location: Lawrence, KS, USA
-      start_date: 2026-08
-      end_date: present
-      summary: "EECS 140 — Introduction to Digital Logic Design"
-      highlights:
-        - Support undergraduate laboratory instruction and hands-on learning.
-        - Assist with laboratory sessions, student questions, course activities, and instructional support.
+    Experience:
+      - company: University of Kansas
+        position: Graduate Teaching Assistant
+        location: Lawrence, KS, USA
+        start_date: 2026-08
+        end_date: present
+        summary: "EECS 140 — Introduction to Digital Logic Design"
+        highlights:
+          - Support undergraduate laboratory instruction and hands-on learning.
+          - Assist with laboratory sessions, student questions, course activities, and instructional support.
 
-    - company: BRAC University
-      position: Lecturer
-      location: Dhaka, Bangladesh
-      start_date: 2024-10
-      end_date: 2026-08
-      highlights:
-        - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
-        - Taught 40 undergraduate sections across 6 academic semesters.
+      - company: BRAC University
+        position: Lecturer
+        location: Dhaka, Bangladesh
+        start_date: 2024-10
+        end_date: 2026-08
+        highlights:
+          - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
+          - Taught 40 undergraduate sections across 6 academic semesters.
 
-    - company: Banglalink Digital Communications Ltd.
-      position: Digitalyst Intern
-      location: Dhaka, Bangladesh
-      start_date: 2024-02
-      end_date: 2024-05
-      highlights:
-        - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
-        - Used PHP, Laravel, JavaScript, jQuery, and MySQL.
+      - company: Banglalink Digital Communications Ltd.
+        position: Digitalyst Intern
+        location: Dhaka, Bangladesh
+        start_date: 2024-02
+        end_date: 2024-05
+        highlights:
+          - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
+          - Used PHP, Laravel, JavaScript, jQuery, and MySQL.
 
-    - company: BRAC University
-      position: Undergraduate Thesis Researcher
-      location: Dhaka, Bangladesh
-      start_date: 2023-01
-      end_date: 2023-12
-      summary: "Context and Semantic Aware Intelligent Reference Validation Method for Detecting Hallucinated and Dangling References in Scholarly Publications."
-      highlights:
-        - Developed a context- and semantics-aware NLP framework.
-        - Proposed an end-to-end reference validation pipeline using sentence embeddings, topic modeling, and a custom similarity algorithm.
-
-
+      - company: BRAC University
+        position: Undergraduate Thesis Researcher
+        location: Dhaka, Bangladesh
+        start_date: 2023-01
+        end_date: 2023-12
+        summary: "Context and Semantic Aware Intelligent Reference Validation Method for Detecting Hallucinated and Dangling References in Scholarly Publications."
+        highlights:
+          - Developed a context- and semantics-aware NLP framework.
+          - Proposed an end-to-end reference validation pipeline using sentence embeddings, topic modeling, and a custom similarity algorithm.
 
     Skills:
       - name: Programming Languages
@@ -132,7 +128,6 @@ cv:
         icon: fa-solid fa-laptop
         keywords: "Microsoft Power BI, Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Photoshop"
 
-
     Projects:
       - name: E-Pathshala
         summary: Full-stack online skill-learning platform where users can purchase courses, instructors can publish courses, and administrators can manage platform activities.
@@ -156,7 +151,6 @@ cv:
           - Applied sentiment analysis and natural language processing techniques.
           - Explored machine learning and deep learning approaches for depression detection.
 
-
     Awards:
       - title: Vice Chancellor's List
         authors:
@@ -178,7 +172,6 @@ cv:
         date: ""
         awarder: BRAC University
         summary: Awarded a 50% merit-based scholarship.
-
 
     Certificates:
       - name: Introduction to Natural Language Processing in Python
