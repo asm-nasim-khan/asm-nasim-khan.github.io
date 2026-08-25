@@ -240,25 +240,16 @@ cv:
 
     Awards:
       - title: Vice Chancellor's List
-        authors:
-          - BRAC University
-        date: ""
         awarder: BRAC University
-        summary: Awarded for academic performance across 3 semesters.
+        summary: Recognized for outstanding academic performance in 3 semesters.
 
       - title: Dean's List
-        authors:
-          - BRAC University
-        date: ""
         awarder: BRAC University
-        summary: Awarded for academic performance across 3 semesters.
+        summary: Recognized for strong academic performance in 3 semesters.
 
       - title: Merit-Based Scholarship
-        authors:
-          - BRAC University
-        date: ""
         awarder: BRAC University
-        summary: Awarded a 50% merit-based scholarship.
+        summary: Awarded a 50% tuition scholarship based on academic merit.
 
     Certificates:
       - name: Introduction to Natural Language Processing in Python
