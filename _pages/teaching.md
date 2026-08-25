@@ -62,3 +62,95 @@ I am currently a **Graduate Teaching Assistant at the University of Kansas**, su
 ## Courses Taught
 
 {% include courses.liquid %}
+
+
+---
+
+## Other Teaching Experience
+
+<div class="row mt-4">
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+
+        <h4 class="card-title">Data Science & Machine Learning</h4>
+
+        <p class="card-text">
+          <strong>Support Instructor</strong><br>
+          Interactive Cares <span class="text-muted">· Remote</span><br>
+          <small>May 2025 – February 2026</small>
+        </p>
+
+        <p class="card-text">
+          Supported learners in the Data Science & Machine Learning Batch 2 program through live instructional sessions, conceptual classes, assessments, and technical guidance.
+        </p>
+
+        <ul>
+          <li>Conducted regular live support and conceptual sessions.</li>
+          <li>Evaluated quizzes and assignments.</li>
+          <li>Provided academic and technical support to learners through online communities.</li>
+          <li>Participated in webinars and learner-engagement activities.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+
+        <h4 class="card-title">Complete Python Programming with Django</h4>
+
+        <p class="card-text">
+          <strong>Course Instructor</strong><br>
+          EShikhon.com <span class="text-muted">· Remote</span><br>
+          <small>April 2024 – August 2026</small>
+        </p>
+
+        <p class="card-text">
+          Taught a two-level programming course covering Python, object-oriented programming, Git, SQL, algorithms, and Django with an emphasis on practical software development.
+        </p>
+
+        <ul>
+          <li>Delivered live programming and conceptual classes.</li>
+          <li>Designed assessments and reviewed student code.</li>
+          <li>Conducted live coding sessions.</li>
+          <li>Guided students through practical projects, including web application development using Django.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+
+        <h4 class="card-title">Student Tutor & Mentor</h4>
+
+        <p class="card-text">
+          <strong>BRAC University</strong><br>
+          Dhaka, Bangladesh<br>
+          <small>May 2022 – December 2023</small>
+        </p>
+
+        <p class="card-text">
+          Supported undergraduate students in introductory programming and data structures courses while also mentoring first-year students through the Office of Academic Advising.
+        </p>
+
+        <ul>
+          <li>Supported CSE110, CSE111, CSE220, and CSE221.</li>
+          <li>Conducted tutorials, laboratory support, and weekly consultation sessions.</li>
+          <li>Reviewed assignments and helped students strengthen programming fundamentals.</li>
+          <li>Mentored first-year students and supported their academic transition.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+</div>
