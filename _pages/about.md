@@ -55,7 +55,7 @@ I have also taught and supported undergraduate computer science courses covering
 
 ### Teaching
 
-Teaching has been an important part of my academic journey. My previous experience includes serving as an **Adjunct Lecturer at BRAC University**, as well as teaching and supporting courses in **Python programming, data science, machine learning, databases, algorithms, and software development**.
+Teaching has been an important part of my academic journey. My previous experience includes serving as an **Lecturer at BRAC University**, as well as teaching and supporting courses in **Python programming, data science, machine learning, databases, algorithms, and software development**.
 
 I enjoy helping students connect theoretical computer science concepts with practical problem-solving and real-world applications.
 
