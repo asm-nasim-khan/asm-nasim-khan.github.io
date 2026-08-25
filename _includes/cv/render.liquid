@@ -152,12 +152,15 @@
               {% assign entries = section_entries | al_cv_sort_by_date %}
               {% include cv/education.liquid %}
             
-            {% elsif section_title == 'Research Experience'
-              or section_title == 'Teaching Experience'
-              or section_title == 'Professional Experience'
-            %}
-              {% assign entries = section_entries | al_cv_sort_by_date %}
-              {% include cv/experience.liquid %}
+            {% elsif section_title == 'Research Experience' %}
+            {% assign entries = section_entries %}
+            {% include cv/experience.liquid %}
+          
+          {% elsif section_title == 'Teaching Experience'
+            or section_title == 'Professional Experience'
+          %}
+            {% assign entries = section_entries | al_cv_sort_by_date %}
+            {% include cv/experience.liquid %}
             
             {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
