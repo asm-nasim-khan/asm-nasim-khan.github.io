@@ -58,35 +58,7 @@ cv:
         end_date: 2015
         score: "GPA: 5.00/5.00"
 
-    Experience:
-      - company: University of Kansas
-        position: Graduate Teaching Assistant
-        location: Lawrence, KS, USA
-        start_date: 2026-08
-        end_date: present
-        summary: "EECS 140 — Introduction to Digital Logic Design"
-        highlights:
-          - Support undergraduate laboratory instruction and hands-on learning.
-          - Assist with laboratory sessions, student questions, course activities, and instructional support.
-
-      - company: BRAC University
-        position: Lecturer
-        location: Dhaka, Bangladesh
-        start_date: 2024-10
-        end_date: 2026-08
-        highlights:
-          - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
-          - Taught 40 undergraduate sections across 6 academic semesters.
-
-      - company: Banglalink Digital Communications Ltd.
-        position: Digitalyst Intern
-        location: Dhaka, Bangladesh
-        start_date: 2024-02
-        end_date: 2024-05
-        highlights:
-          - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
-          - Used PHP, Laravel, JavaScript, jQuery, and MySQL.
-
+    Research Experience:
       - company: BRAC University
         position: Undergraduate Thesis Researcher
         location: Dhaka, Bangladesh
@@ -94,39 +66,154 @@ cv:
         end_date: 2023-12
         summary: "Context and Semantic Aware Intelligent Reference Validation Method for Detecting Hallucinated and Dangling References in Scholarly Publications."
         highlights:
-          - Developed a context- and semantics-aware NLP framework.
+          - Conducted undergraduate thesis research under the supervision of Dr. Md. Golam Rabiul Alam and Dr. Farig Yousuf Sadeque.
+          - Developed a context- and semantics-aware NLP framework for detecting hallucinated and dangling references in scholarly publications.
           - Proposed an end-to-end reference validation pipeline using sentence embeddings, topic modeling, and a custom similarity algorithm.
+          - Constructed and annotated citation data collected from IEEE Xplore and PubPeer.
+          - Applied expert review and cross-validation for dataset quality control.
+          - Addressed class imbalance using AI-generated and manually crafted synthetic samples to improve model robustness.
+          - Research is being prepared for submission to PLOS ONE.
+
+      - company: BRAC University
+        position: Undergraduate Researcher
+        location: Dhaka, Bangladesh
+        start_date: 2023-05
+        end_date: 2023-12
+        summary: "Hotel Review Analysis on Machine Learning and Deep Learning Based on Pre-trained GloVe Embedding."
+        highlights:
+          - Completed the undergraduate research project for CSE431 under the supervision of Annajiat Alim Rasel.
+          - Developed a sentiment-based lodging recommendation system using user reviews and pre-trained GloVe word embeddings.
+          - Conducted data preprocessing and feature extraction for model training.
+          - Evaluated multiple machine learning and deep learning approaches.
+          - Achieved the strongest performance using an RNN-LSTM architecture for capturing textual patterns.
+
+    Teaching Experience:
+      - company: University of Kansas
+        position: Graduate Teaching Assistant
+        location: Lawrence, KS, USA
+        start_date: 2026-08
+        end_date: present
+        summary: "EECS 140 — Introduction to Digital Logic Design"
+        highlights:
+          - Support undergraduate laboratory instruction in digital logic design.
+          - Assist students with hands-on laboratory activities, digital logic concepts, and course exercises.
+          - Provide instructional support during laboratory sessions and help students strengthen their understanding of fundamental digital systems.
+
+      - company: BRAC University
+        position: Lecturer
+        location: Dhaka, Bangladesh
+        start_date: 2024-10
+        end_date: 2026-08
+        summary: Undergraduate teaching in Computer Science and Engineering across theory and laboratory courses.
+        highlights:
+          - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
+          - Taught 40 undergraduate sections across 6 academic semesters.
+          - Conducted theory lectures and laboratory sessions in programming, data structures, operating systems, numerical methods, databases, computer networks, computer vision, and system analysis and design.
+          - Guided students through programming exercises, laboratory activities, projects, debugging, and applied problem solving.
+          - Prepared and updated instructional materials, assessments, and laboratory resources.
+
+      - company: Interactive Cares
+        position: Support Instructor — Data Science & Machine Learning
+        location: Remote
+        start_date: 2025-05
+        end_date: 2026-02
+        summary: Supported learners in the Data Science & Machine Learning Batch 2 and Batch 3 programs through live instructional sessions, assessments, and technical guidance.
+        highlights:
+          - Conducted regular live support sessions and conceptual classes.
+          - Evaluated quizzes and assignments.
+          - Provided academic and technical support to learners through online communities.
+          - Assisted learners with data science and machine learning concepts and implementation issues.
+          - Participated in webinars and learner-engagement activities.
+
+      - company: EShikhon.com
+        position: Course Instructor — Complete Python Programming with Django
+        location: Remote
+        start_date: 2024-04
+        end_date: 2026-08
+        summary: Taught a comprehensive programming course covering Python fundamentals through practical Django web development.
+        highlights:
+          - Taught Python programming, object-oriented programming, Git, SQL, algorithms, and Django.
+          - Conducted live programming and conceptual classes.
+          - Designed assessments and reviewed student code.
+          - Conducted live coding and problem-solving sessions.
+          - Guided learners through hands-on software development projects, including Django-based web applications.
+
+      - company: BRAC University
+        position: Student Tutor & Mentor
+        location: Dhaka, Bangladesh
+        start_date: 2022-05
+        end_date: 2023-12
+        summary: Supported undergraduate programming and data structures courses while mentoring first-year students.
+        highlights:
+          - Supported CSE110, CSE111, CSE220, and CSE221.
+          - Conducted laboratory sessions, tutorials, and weekly consultation sessions.
+          - Assisted students with programming concepts, assignments, debugging, and problem solving.
+          - Reviewed assignments and provided academic guidance.
+          - Mentored first-year students through the Office of Academic Advising.
+          - Organized advising sessions and supported students during their academic transition.
+
+    Professional Experience:
+      - company: Banglalink Digital Communications Ltd.
+        position: Digitalyst Intern
+        location: Dhaka, Bangladesh
+        start_date: 2024-02
+        end_date: 2024-05
+        summary: Software development and organizational support internship at Banglalink Digital Communications Ltd.
+        highlights:
+          - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
+          - Used PHP, Laravel, JavaScript, jQuery, and MySQL to develop practical software solutions.
+          - Collaborated with the HR team to manage and streamline the intern requirements process.
 
     Skills:
       - name: Programming Languages
-        level: ""
         icon: fa-solid fa-code
-        keywords: "Python, Java, JavaScript, C/C++, PHP"
+        keywords:
+          - Python
+          - Java
+          - JavaScript
+          - C/C++
+          - PHP
 
       - name: Web Development
-        level: ""
         icon: fa-solid fa-globe
-        keywords: "Laravel, Django, HTML, CSS, RESTful API"
+        keywords:
+          - Laravel
+          - Django
+          - HTML
+          - CSS
+          - RESTful API
 
       - name: Databases
-        level: ""
         icon: fa-solid fa-database
-        keywords: "MySQL, SQL"
+        keywords:
+          - MySQL
+          - SQL
 
       - name: Machine Learning & Data Science
-        level: ""
         icon: fa-solid fa-brain
-        keywords: "Machine Learning, Deep Learning, Natural Language Processing, Data Preprocessing, Feature Engineering"
+        keywords:
+          - Machine Learning
+          - Deep Learning
+          - Natural Language Processing
+          - Data Preprocessing
+          - Feature Engineering
 
       - name: Development Tools
-        level: ""
         icon: fa-solid fa-code-branch
-        keywords: "Git, GitHub, Vercel, LaTeX"
+        keywords:
+          - Git
+          - GitHub
+          - Vercel
+          - LaTeX
 
       - name: Software
-        level: ""
         icon: fa-solid fa-laptop
-        keywords: "Microsoft Power BI, Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Photoshop"
+        keywords:
+          - Microsoft Power BI
+          - Microsoft Excel
+          - Microsoft Word
+          - Microsoft PowerPoint
+          - Photoshop
 
     Projects:
       - name: E-Pathshala
@@ -134,7 +221,8 @@ cv:
         highlights:
           - Implemented using Laravel, PHP, MySQL, and MVC architecture.
           - Developed course purchasing and publishing functionality.
-          - Implemented user, teacher, and administrator functionality.
+          - Implemented user, instructor, and administrator functionality.
+          - Developed features for course management and user interaction.
           - Built another version using Django, CSS, and HTML.
 
       - name: Laptop Price Prediction
