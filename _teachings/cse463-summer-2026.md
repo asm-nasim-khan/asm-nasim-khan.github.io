@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "CSE463"
+title: "CSE463 — Computer Vision: Fundamentals and Applications"
 description: "Lab Instructor — 2 sections"
 instructor: "BRAC University"
 year: 2026
@@ -11,7 +11,7 @@ course_id: cse463-summer-2026
 
 ## Teaching Role
 
-**Lecturer — Lab Instructor**
+**Adjunct Lecturer — Lab Instructor**
 
 BRAC University
 
