@@ -59,111 +59,45 @@ cv:
         end_date: 2015
         score: "GPA: 5.00/5.00"
 
+  Experience:
+    - company: University of Kansas
+      position: Graduate Teaching Assistant
+      location: Lawrence, KS, USA
+      start_date: 2026-08
+      end_date: present
+      summary: "EECS 140 — Introduction to Digital Logic Design"
+      highlights:
+        - Support undergraduate laboratory instruction and hands-on learning.
+        - Assist with laboratory sessions, student questions, course activities, and instructional support.
 
-    Research Experience:
-      - company: BRAC University
-        position: Undergraduate Thesis Researcher
-        location: Dhaka, Bangladesh
-        start_date: 2023-01
-        end_date: 2023-12
-        summary: "Context and Semantic Aware Intelligent Reference Validation Method for Detecting Hallucinated and Dangling References in Scholarly Publications."
-        highlights:
-          - Conducted undergraduate thesis research under the supervision of Dr. Md. Golam Rabiul Alam and Dr. Farig Yousuf Sadeque.
-          - Developed a context- and semantics-aware NLP framework to detect hallucinated and dangling references in scholarly publications.
-          - Proposed an end-to-end reference validation pipeline using sentence embeddings, topic modeling, and a custom similarity algorithm.
-          - Constructed a dataset by collecting and annotating citations from IEEE Xplore and PubPeer, including both valid and invalid references.
-          - Applied expert review and cross-validation for dataset quality control.
-          - Addressed class imbalance using AI-generated and manually crafted synthetic samples to improve model generalizability and robustness.
-          - Research is being prepared for submission to PLOS ONE.
+    - company: BRAC University
+      position: Lecturer
+      location: Dhaka, Bangladesh
+      start_date: 2024-10
+      end_date: 2026-08
+      highlights:
+        - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
+        - Taught 40 undergraduate sections across 6 academic semesters.
 
-      - company: BRAC University
-        position: Undergraduate Researcher
-        location: Dhaka, Bangladesh
-        start_date: 2023-05
-        end_date: 2023-12
-        summary: "Hotel Review Analysis on Machine Learning and Deep Learning Based on Pre-trained GloVe Embedding."
-        highlights:
-          - Completed the undergraduate research project for CSE431 under the supervision of Annajiat Alim Rasel.
-          - Developed a sentiment-based lodging recommendation system using user reviews and pre-trained GloVe word embeddings.
-          - Conducted comprehensive data preprocessing and feature extraction for model training.
-          - Evaluated multiple machine learning and deep learning approaches.
-          - Achieved the highest accuracy using an RNN-LSTM architecture for capturing textual patterns.
+    - company: Banglalink Digital Communications Ltd.
+      position: Digitalyst Intern
+      location: Dhaka, Bangladesh
+      start_date: 2024-02
+      end_date: 2024-05
+      highlights:
+        - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
+        - Used PHP, Laravel, JavaScript, jQuery, and MySQL.
 
+    - company: BRAC University
+      position: Undergraduate Thesis Researcher
+      location: Dhaka, Bangladesh
+      start_date: 2023-01
+      end_date: 2023-12
+      summary: "Context and Semantic Aware Intelligent Reference Validation Method for Detecting Hallucinated and Dangling References in Scholarly Publications."
+      highlights:
+        - Developed a context- and semantics-aware NLP framework.
+        - Proposed an end-to-end reference validation pipeline using sentence embeddings, topic modeling, and a custom similarity algorithm.
 
-    Teaching Experience:
-      - company: University of Kansas
-        position: Graduate Teaching Assistant
-        location: Lawrence, KS, USA
-        start_date: 2026-08
-        end_date: present
-        summary: Graduate Teaching Assistant for EECS 140 — Introduction to Digital Logic Design.
-        highlights:
-          - Support undergraduate laboratory instruction and hands-on learning.
-          - Assist with laboratory sessions, student questions, course activities, and instructional support.
-
-      - company: BRAC University
-        position: Lecturer
-        location: Dhaka, Bangladesh
-        start_date: 2024-10
-        end_date: 2026-08
-        summary: Undergraduate teaching in Computer Science and Engineering across theory and laboratory courses.
-        highlights:
-          - Taught CSE110, CSE220, CSE321, CSE330, CSE370, CSE421, CSE463, and CSE471.
-          - Conducted lectures and laboratory sessions across programming, data structures, operating systems, numerical methods, databases, computer networks, computer vision, and system analysis and design.
-          - Guided students through hands-on programming, laboratory exercises, projects, and applied learning activities.
-          - Updated and prepared instructional materials to support course delivery.
-          - Taught 40 undergraduate sections across 6 academic semesters.
-
-      - company: Interactive Cares
-        position: Support Instructor — Data Science & Machine Learning
-        location: Remote
-        start_date: 2025-05
-        end_date: 2026-02
-        summary: Supported learners in the Data Science & Machine Learning program through live instructional and technical support.
-        highlights:
-          - Conducted regular live support sessions and conceptual classes.
-          - Evaluated quizzes and assignments.
-          - Provided academic and technical support through Discord and Facebook communities.
-          - Participated in webinars and online learner-engagement activities.
-
-      - company: EShikhon.com
-        position: Course Instructor — Complete Python Programming with Django
-        location: Remote
-        start_date: 2024-04
-        end_date: 2026-08
-        summary: Taught a two-level programming course focused on Python and practical web development.
-        highlights:
-          - Taught Python programming, object-oriented programming, Git, SQL, algorithms, and Django.
-          - Delivered live programming and conceptual classes.
-          - Designed assessments and reviewed student code.
-          - Conducted live coding sessions.
-          - Guided students through hands-on software development projects, including Django-based web applications.
-
-      - company: BRAC University
-        position: Student Tutor & Mentor
-        location: Dhaka, Bangladesh
-        start_date: 2022-05
-        end_date: 2023-12
-        summary: Supported undergraduate programming and data structures courses while mentoring first-year students.
-        highlights:
-          - Taught and supported CSE110, CSE111, CSE220, and CSE221.
-          - Conducted laboratory sessions, tutorials, and weekly consultation sessions.
-          - Reviewed assignments and supported students with programming concepts and problem solving.
-          - Mentored first-year students through the Office of Academic Advising.
-          - Organized advising sessions and supported students during their academic transition.
-
-
-    Professional Experience:
-      - company: Banglalink Digital Communications Ltd.
-        position: Digitalyst Intern
-        location: Gulshan 1, Dhaka, Bangladesh
-        start_date: 2024-02
-        end_date: 2024-05
-        summary: Software development and organizational support internship at Banglalink Digital Communications Ltd.
-        highlights:
-          - Developed a script generator for GBTS Cell as part of the Banglalink OMC App project.
-          - Used PHP, Laravel, JavaScript, jQuery, and MySQL to develop practical software solutions.
-          - Collaborated with the HR team to manage and streamline the intern requirements process.
 
 
     Skills:
