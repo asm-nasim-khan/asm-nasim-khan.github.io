@@ -170,26 +170,11 @@ cv:
         keywords:
           - Python
           - Java
-          - JavaScript
           - C/C++
+          - JavaScript
           - PHP
 
-      - name: Web Development
-        icon: fa-solid fa-globe
-        keywords:
-          - Laravel
-          - Django
-          - HTML
-          - CSS
-          - RESTful API
-
-      - name: Databases
-        icon: fa-solid fa-database
-        keywords:
-          - MySQL
-          - SQL
-
-      - name: Machine Learning & Data Science
+      - name: Machine Learning & AI
         icon: fa-solid fa-brain
         keywords:
           - Machine Learning
@@ -198,22 +183,30 @@ cv:
           - Data Preprocessing
           - Feature Engineering
 
-      - name: Development Tools
+      - name: Web & Backend Development
+        icon: fa-solid fa-globe
+        keywords:
+          - Django
+          - Laravel
+          - RESTful APIs
+          - HTML
+          - CSS
+
+      - name: Databases & Data Tools
+        icon: fa-solid fa-database
+        keywords:
+          - SQL
+          - MySQL
+          - Microsoft Power BI
+          - Microsoft Excel
+
+      - name: Development & Research Tools
         icon: fa-solid fa-code-branch
         keywords:
           - Git
           - GitHub
-          - Vercel
           - LaTeX
-
-      - name: Software
-        icon: fa-solid fa-laptop
-        keywords:
-          - Microsoft Power BI
-          - Microsoft Excel
-          - Microsoft Word
-          - Microsoft PowerPoint
-          - Photoshop
+          - Vercel
 
     Projects:
       - name: E-Pathshala
