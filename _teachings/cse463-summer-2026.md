@@ -11,7 +11,7 @@ course_id: cse463-summer-2026
 
 ## Teaching Role
 
-**Adjunct Lecturer — Lab Instructor**
+**Lecturer — Lab Instructor**
 
 BRAC University
 
