@@ -93,7 +93,7 @@ I am currently a **Graduate Teaching Assistant at the University of Kansas**, su
         </p>
 
         <p class="card-text">
-          Supported learners in the Data Science & Machine Learning Batch 2 and 3 program through live instructional sessions, conceptual classes, assessments, and technical guidance.
+          Supported learners in the Data Science & Machine Learning Batch 2 and 3 programs through live instructional sessions, conceptual classes, assessments, and technical guidance.
         </p>
 
         <ul>
