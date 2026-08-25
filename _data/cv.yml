@@ -3,7 +3,9 @@ cv:
   label: Ph.D. Student in Computer Science
   email: nasimkhan.asm@gmail.com
   location: Lawrence, KS, USA
+  website: "https://asm-nasim-khan.github.io"
   image: ""
+
   summary: Ph.D. student in Computer Science at the University of Kansas with research interests and experience in natural language processing, machine learning, deep learning, and intelligent systems. Experienced in university teaching, academic mentoring, software development, and applied machine learning projects.
 
   social_networks:
@@ -26,7 +28,6 @@ cv:
         studyType: Ph.D.
         start_date: 2026
         end_date: present
-        score: ""
         highlights:
           - Ph.D. student in Computer Science.
 
@@ -36,8 +37,8 @@ cv:
         studyType: Bachelor of Science
         start_date: 2019
         end_date: 2023
-        score: "CGPA: 3.83/4.00"
         highlights:
+          - "CGPA: 3.83/4.00"
           - Awarded a 50% merit-based scholarship.
           - Named to the Vice Chancellor's List for 3 semesters.
           - Named to the Dean's List for 3 semesters.
@@ -48,7 +49,8 @@ cv:
         studyType: HSC
         start_date: 2015
         end_date: 2017
-        score: "GPA: 4.33/5.00"
+        highlights:
+          - "GPA: 4.33/5.00"
 
       - institution: Cumilla Zilla School
         location: Cumilla, Bangladesh
@@ -56,7 +58,8 @@ cv:
         studyType: SSC
         start_date: 2009
         end_date: 2015
-        score: "GPA: 5.00/5.00"
+        highlights:
+          - "GPA: 5.00/5.00"
 
     Research Experience:
       - company: BRAC University
@@ -75,17 +78,17 @@ cv:
           - Research is being prepared for submission to PLOS ONE.
 
       - company: BRAC University
-        position: Undergraduate Researcher
+        position: Undergraduate Research Project
         location: Dhaka, Bangladesh
         start_date: 2023-05
         end_date: 2023-12
         summary: "Hotel Review Analysis on Machine Learning and Deep Learning Based on Pre-trained GloVe Embedding."
         highlights:
-          - Completed the undergraduate research project for CSE431 under the supervision of Annajiat Alim Rasel.
-          - Developed a sentiment-based lodging recommendation system using user reviews and pre-trained GloVe word embeddings.
+          - Completed the research project for CSE431 under the supervision of Annajiat Alim Rasel.
+          - Developed a sentiment-based lodging recommendation approach using user reviews and pre-trained GloVe word embeddings.
           - Conducted data preprocessing and feature extraction for model training.
           - Evaluated multiple machine learning and deep learning approaches.
-          - Achieved the strongest performance using an RNN-LSTM architecture for capturing textual patterns.
+          - Achieved the strongest performance using an RNN-LSTM architecture.
 
     Teaching Experience:
       - company: University of Kansas
@@ -221,22 +224,22 @@ cv:
 
       - name: Laptop Price Prediction
         url: "https://github.com/asm-nasim-khan/Laptop-Price-Prediction"
-        summary: Developed a machine learning pipeline for predicting laptop prices from hardware specifications using data preprocessing, feature engineering, exploratory analysis, and regression modeling.
+        summary: Comparative machine learning project for predicting laptop prices from hardware specifications using multiple regression algorithms.
         highlights:
-          - Prepared and transformed laptop specification data for machine learning analysis.
-          - Engineered features from CPU, RAM, GPU, display, storage, and other hardware characteristics.
-          - Performed exploratory data analysis using distributions, bar plots, correlation analysis, and heatmaps.
-          - Evaluated multiple regression approaches for laptop price prediction.
-          - Analyzed the contribution of hardware characteristics to predicted laptop prices.
+          - Cleaned and transformed laptop specification data for machine learning analysis.
+          - Engineered features including processor characteristics, RAM, storage, screen resolution, weight, and pixels per inch.
+          - Implemented Linear Regression, K-Nearest Neighbors, Decision Tree, and Random Forest regression models.
+          - Evaluated models using R², MAE, MSE, and RMSE.
+          - Identified Random Forest Regressor as the strongest-performing model among the evaluated approaches.
 
       - name: NLP-based Depression Detection
         url: "https://github.com/asm-nasim-khan/NLP-based-Depression-Detection"
-        summary: Natural language processing and machine learning project for identifying depression-related linguistic patterns from textual social media data.
+        summary: Natural language processing project exploring depression detection from textual data using machine learning and deep learning approaches.
         highlights:
-          - Applied text preprocessing and natural language processing techniques to social media content.
-          - Explored sentiment-related and linguistic features associated with depression-related text.
-          - Investigated machine learning and deep learning approaches for text-based depression detection.
-          - Developed an end-to-end workflow covering text preparation, modeling, and prediction.
+          - Applied natural language processing techniques to text-based depression detection.
+          - Explored machine learning approaches for classification.
+          - Explored deep learning approaches for classification.
+          - Developed as part of CSE431 — Natural Language Processing.
 
     Awards:
       - title: Vice Chancellor's List
