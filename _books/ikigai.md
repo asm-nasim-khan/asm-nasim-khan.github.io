@@ -14,8 +14,8 @@ tags:
   - longevity
   - mindfulness
   - self-development
-started: "2025-11"
-finished: "2026-04"
+started: "2025-11-29"
+finished: "2026-04-04"
 released: 2016
 stars: 4
 status: Finished
