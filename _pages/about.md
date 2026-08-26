@@ -61,7 +61,7 @@ I have also worked on projects involving **Natural Language Processing, machine 
 
 Teaching has been an important part of my academic journey.
 
-Before beginning my PhD, I served as a **Lecturer at BRAC University**, where I taught and supported undergraduate computer science courses covering programming, data structures, operating systems, databases, algorithms, system design, and related topics.
+Before beginning my PhD, I served as a **Lecturer at BRAC University**, where I taught and supported undergraduate computer science courses covering **programming, data structures, operating systems, computer networks, system design, databases, and computer vision**.
 
 I have also worked as an instructor for **Python programming, Data Science, Machine Learning, and web development**.
 
