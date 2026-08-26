@@ -20,37 +20,53 @@ horizontal: false
 
   {% for category in page.display_categories %}
 
-    {% if category == "software" %}
-      {% assign category_title = "Software Development" %}
-    {% elsif category == "machine-learning" %}
-      {% assign category_title = "Machine Learning & NLP" %}
-    {% elsif category == "research" %}
-      {% assign category_title = "Research Projects" %}
-    {% else %}
-      {% assign category_title = category %}
-    {% endif %}
-
-    <a id="{{ category }}" href=".#{{ category }}">
-      <h2 class="category">{{ category_title }}</h2>
-    </a>
-
     {% assign categorized_projects = site.projects | where: "category", category %}
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
-    {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
-          {% for project in sorted_projects %}
-            {% include projects_horizontal.liquid %}
-          {% endfor %}
+    {% if categorized_projects.size > 0 %}
+
+      {% if category == "software" %}
+        {% assign category_title = "Software Development" %}
+      {% elsif category == "machine-learning" %}
+        {% assign category_title = "Machine Learning & NLP" %}
+      {% elsif category == "research" %}
+        {% assign category_title = "Research Projects" %}
+      {% else %}
+        {% assign category_title = category %}
+      {% endif %}
+
+      <h2
+        id="{{ category }}"
+        class="category"
+        style="color: var(--global-text-color); margin-top: 2rem;"
+      >
+        {{ category_title }}
+      </h2>
+
+      {% if page.horizontal %}
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+
+            {% for project in sorted_projects %}
+              {% include projects_horizontal.liquid %}
+            {% endfor %}
+
+          </div>
         </div>
-      </div>
-    {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% for project in sorted_projects %}
-          {% include projects.liquid %}
-        {% endfor %}
-      </div>
+
+      {% else %}
+
+        <div class="row row-cols-1 row-cols-md-3">
+
+          {% for project in sorted_projects %}
+            {% include projects.liquid %}
+          {% endfor %}
+
+        </div>
+
+      {% endif %}
+
     {% endif %}
 
   {% endfor %}
@@ -60,19 +76,27 @@ horizontal: false
   {% assign sorted_projects = site.projects | sort: "importance" %}
 
   {% if page.horizontal %}
+
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
+
         {% for project in sorted_projects %}
           {% include projects_horizontal.liquid %}
         {% endfor %}
+
       </div>
     </div>
+
   {% else %}
+
     <div class="row row-cols-1 row-cols-md-3">
+
       {% for project in sorted_projects %}
         {% include projects.liquid %}
       {% endfor %}
+
     </div>
+
   {% endif %}
 
 {% endif %}
