@@ -29,48 +29,57 @@ latest_posts:
 
 Hello! I am **A S M Nasim Khan**, a PhD student in **Computer Science** at the **University of Kansas**.
 
-My research interests span **Natural Language Processing (NLP), Computer Vision, Image Processing, Machine Learning, and Data Science**. I am broadly interested in developing intelligent, data-driven methods that can extract meaningful information from complex textual, visual, and structured data.
+My research interests lie broadly in **Artificial Intelligence**, with a particular focus on **Natural Language Processing (NLP), Computer Vision, Machine Learning, Deep Learning, Image Processing, and Data Science**. I am interested in developing intelligent and reliable computational methods that can extract meaningful information from complex textual, visual, and structured data.
 
 ### Research Interests
 
 - Natural Language Processing (NLP)
 - Computer Vision
+- Machine Learning and Deep Learning
 - Image Processing
-- Machine Learning
 - Data Science
+- Multimodal Learning
+- Applied Artificial Intelligence
 
 ### Research
 
-My research interests lie at the intersection of **artificial intelligence, machine learning, and data-driven computing**. I am particularly interested in problems involving language understanding, visual information processing, representation learning, and the development of reliable machine learning systems.
+My research interests span problems involving **language understanding, visual information processing, representation learning, and reliable machine learning systems**.
 
-My previous research focused on developing a **context- and semantics-aware reference validation framework** for detecting hallucinated and dangling references in scholarly publications. The work explored sentence embeddings, topic modeling, similarity-based methods, and dataset construction for identifying potentially invalid scholarly references.
+My previous research focused on developing a **context- and semantics-aware reference validation framework** for identifying hallucinated and dangling references in scholarly publications. The work explored sentence embeddings, topic modeling, semantic similarity methods, and dataset construction for detecting potentially invalid scholarly references.
+
+I am particularly interested in research that combines strong machine learning methodology with practical real-world applications.
 
 ### Background
 
 Before beginning my doctoral studies, I completed my **Bachelor of Computer Science and Engineering** at **BRAC University** in Dhaka, Bangladesh.
 
-My academic background combines research, teaching, software development, and data analysis. I have worked with technologies and tools including **Python, SQL, machine learning, data analysis, Django, Java, JavaScript, PHP, MySQL, Power BI, Git, and LaTeX**.
+My academic background combines **research, university teaching, software development, and data analysis**. I have worked with technologies and tools including **Python, SQL, Scikit-learn, Django, Java, JavaScript, PHP, MySQL, Power BI, Git, and LaTeX**.
 
-I have also taught and supported undergraduate computer science courses covering topics such as **programming, data structures, operating systems, databases, and system design**.
+I have also worked on projects involving **Natural Language Processing, machine learning, deep learning, predictive modeling, web application development, and data analysis**.
 
 ### Teaching
 
-Teaching has been an important part of my academic journey. My previous experience includes serving as a **Lecturer at BRAC University**, as well as teaching and supporting courses in **Python programming, data science, machine learning, databases, algorithms, and software development**.
+Teaching has been an important part of my academic journey.
+
+Before beginning my PhD, I served as a **Lecturer at BRAC University**, where I taught and supported undergraduate computer science courses covering programming, data structures, operating systems, databases, algorithms, system design, and related topics.
+
+I have also worked as an instructor for **Python programming, Data Science, Machine Learning, and web development**.
+
+At the **University of Kansas**, I continue to be involved in undergraduate computer science education as a graduate teaching assistant.
 
 I enjoy helping students connect theoretical computer science concepts with practical problem-solving and real-world applications.
 
 ### Research & Collaboration
 
-I am interested in collaborating on research involving:
+I am interested in research and collaboration involving:
 
 - Natural Language Processing
 - Computer Vision and Image Analysis
 - Machine Learning and Deep Learning
-- Data Science and Data Analytics
 - Multimodal Learning
-- Applied Artificial Intelligence
+- Data Science and Data Analytics
+- Reliable and Applied Artificial Intelligence
 
-I am particularly interested in interdisciplinary research where machine learning and AI can be used to address challenging real-world problems.
+I am especially interested in interdisciplinary research where **AI and machine learning can be used to address challenging real-world problems**.
 
-<!-- You can learn more about my work through my [publications](/publications/), [projects](/projects/), and [CV](/cv/). -->
-You can learn more about my work through my [projects](/projects/), [teaching](/teaching/), and [CV](/cv/).
+You can learn more about my work through my [projects](/projects/), [teaching](/teaching/), [repositories](/repositories/), and [CV](/cv/).
