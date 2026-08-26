@@ -11,8 +11,8 @@ tags:
   - self-discovery
   - dreams
   - purpose
-started: 2017
-finished: 2017
+started: 2017-01-01
+finished: 2017-01-01
 released: 1988
 stars: 4.7
 status: Finished
