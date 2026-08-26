@@ -72,4 +72,5 @@ I am interested in collaborating on research involving:
 
 I am particularly interested in interdisciplinary research where machine learning and AI can be used to address challenging real-world problems.
 
-You can learn more about my work through my [publications](/publications/), [projects](/projects/), and [CV](/cv/).
+<!-- You can learn more about my work through my [publications](/publications/), [projects](/projects/), and [CV](/cv/). -->
+You can learn more about my work through my [projects](/projects/), [teaching](/teaching/), and [CV](/cv/).
