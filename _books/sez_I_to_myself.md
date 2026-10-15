@@ -1,4 +1,3 @@
-
 ---
 layout: book-review
 title: Sez I to Myself
