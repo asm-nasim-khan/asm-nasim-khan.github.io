@@ -3,7 +3,7 @@ layout: book-review
 title: Sez I to Myself
 author: Frank McCourt and Malachy McCourt
 cover: assets/img/book_covers/sez_i_to_myself.jpg
-isbn: 9781419790980
+isbn: 9798896842392
 categories:
   - nonfiction
   - essays
